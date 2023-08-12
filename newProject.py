@@ -19,7 +19,7 @@ options.add_argument(f'user-agent={user_agent}')
 
 driver = webdriver.Chrome(options)
 
-driver.get("https://www.accuweather.com/de/de/pittsburgh/52062/weather-forecast/170335")
+driver.get("https://www.accuweather.com/de/de/aachen/52062/weather-forecast/170335")
 btn_do_not_consent = driver.find_element(By.CLASS_NAME, "fc-cta-do-not-consent")
 btn_do_not_consent.click()
 sleep(3)
