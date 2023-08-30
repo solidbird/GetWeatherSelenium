@@ -25,7 +25,7 @@ btn_do_not_consent.click()
 sleep(3)
 
 elem = driver.find_element(By.CLASS_NAME, "cur-con-weather-card")
-elem.screenshot("lol.png")
+#elem.screenshot("weather.png")
 
 x = elem.text.split("\n")
 print(f"{x[1]} {x[2]}\n{x[12]}")
